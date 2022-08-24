@@ -1,4 +1,208 @@
-h1{
-    color: tomato;
-    font-weight: 500;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* main section  */
+.main-section{
+    position: relative;
+    background-image: url("donation01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.9;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+    
+}
+.donate-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.donate-button{
+    padding: 15px 30px;
+    color:white;
+    background-color: rgb(12, 88, 35);
+    margin: 20px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* second section  */
+
+.donate-amount, .section-3{
+    margin: 100px 200px;
+    text-align: center;
+    padding: 40px 0;
+}
+.second-title{
+    font-size:50px ;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.donate-amount>p{
+    color: dimgrey;
+    font-size: 20px;
+}
+
+.amounts{
+    display: flex;
+    justify-content: center;
+    margin: 40px 18px;
+}
+.amount{
+    margin: 30px 20px;
+    font-size: 30px;
+    color: rgb(156, 166, 175);
+    background-color: rgb(231, 229, 223);
+    padding:25px 20px;
+}
+
+#top-amount{
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    background-color: blanchedalmond;
+}
+.amount-input{
+    border: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+/* third section card section  */
+
+.card-section{
+    display: flex;
+    margin-top: 50px;
+}
+
+.card>img{
+    height: 50px;
+    width: 50px;
+    margin: 15px 0;
+}
+.card{
+    height: 300px;
+    width: 250;
+    margin: 25px 20px;
+    padding: 14px 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 25px;
+}
+
+
+#card1{
+    background-color: rgb(231, 227, 235);
+}
+#card2{
+    background-color: rgb(214, 224, 209);
+}#card3{
+    background-color: rgb(231, 224, 229);
+}
+
+.card-description{
+    font-size: 18px;
+}
+.card-detail{
+    margin-top: 20px;
+
+}
+/* Subscribe section  */
+
+.update{
+margin:60px 150px;
+}
+
+
+.update-content{
+    text-align: center;
+}
+.update-form{
+    position: relative;
+    background-color: aquamarine;
+    margin: 50px 70px;
+    padding: 100px 200px;
+}
+
+.email-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sub-btn{
+position: absolute;
+border: none;
+bottom: 0;
+right: 0;
+top: 0;
+padding: 15px 25px;
+background-color: orangered;
+color: wheat;
+}
+.email{
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(219, 213, 202);
+}
+footer{
+    position: relative;
+    background-color: rgb(67, 49, 83);
+    height: 200px;
+    width: 100%;
+}
+.footer-content{
+    position: absolute;
+    color: blanchedalmond;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-content>h3{
+    color: orangered;
+    margin-bottom: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* bonus section  */
+.inquery{
+    display: flex;
+    margin: 60px 150px;
+}
+.half{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5%;
+}
+
+.half img{
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.half>h2{
+    font-size: 30px;
+    margin:25px 0;
 }
